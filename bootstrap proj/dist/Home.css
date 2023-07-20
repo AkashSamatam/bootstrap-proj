@@ -1,0 +1,33 @@
+/* .container-fluid{
+    display: flex;
+} */
+
+
+.container {
+    display: flex;
+}
+
+.container .card {
+    margin-top: 0.8rem;
+    padding: 2rem;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+.pagination{
+    margin-left: 600px;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+.navbar-brand {
+
+    font-weight:bolder;
+    
+}
+

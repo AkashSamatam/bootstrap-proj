@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- -----------------------------------------navbar--------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+            <img src="images/movie-png-logo-1-removebg-preview.png" alt="" height="35px" width="40px">
+            <a class="navbar-brand" href="#">MOVIENEW </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-info" type="submit">Search</button>
+                    </form>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Thriller</a></li>
+                            <li><a class="dropdown-item" href="#">Lovedrama</a></li>
+                            <li><a class="dropdown-item" href="#">comedy</a></li>
+                            <li><a class="dropdown-item" href="#">sci-fi</a></li>
+                            <li><a class="dropdown-item" href="#">webseries</a></li>
+                        </ul>
+                    </div>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------------------------------------banner--------------------------------------------- -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/movie1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/movie2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/movie3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- --------------------------------------------content------------------------------------------ -->
+    <h2> Popular movies... </h2>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema1.jpg" alt="img">
+                        <div class="card-title">
+                            <h5>Evil Dead Rise</h5>
+                            <div class="card-desc">
+
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema2.jpg" alt="">
+                        <div class="card-title">
+                            <h5>Guardians of the galaxy</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema3.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Shazaam</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/movie4.jpg" alt="">
+                        <div class="card-title">
+                            <h5>John Wick</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema4.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Nennokkadine</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema5.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>After Ever Happy</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema6.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Akhanda</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema7.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Ala vaikuntapuramlo</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <h2> Recently added movies... </h2>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema8.jpg" alt="img" height="355px">
+                        <div class="card-title">
+                            <h5>Wakhanda Forever</h5>
+                            <div class="card-desc"> 
+
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema9.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Black Rose</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema14.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Bleeding Steel</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema13.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Black Widow</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <h2> Most watched movies... </h2>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema10.jpg" alt="img" height="355px">
+                        <div class="card-title">
+                            <h5>Bluff Master</h5>
+                            <div class="card-desc"> 
+
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema13.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Black widow</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema12.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Black Adam</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/cinema11.jpg" alt="" height="355px">
+                        <div class="card-title">
+                            <h5>Bimbisara</h5>
+                            <div class="card-desc">
+                                <button class="btn btn-outline-primary">playnow</button>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque quod aliquid minus cupiditate dolor!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- --------------------------------------------dropdown------------------------------------------ -->
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What can i watch on MOVIENEW..?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">MovieNew has an extensive library of feature films, documentaries, TV shows,
+                    anime, award-winning originals, and more. Watch as much as you want, anytime you want.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How do i cancel?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Netflix is flexible. There are no annoying contracts and no commitments. You
+                    can easily cancel your account online in two clicks. There are no cancellation fees – start or stop
+                    your account anytime.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    what is MovieNew?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">MOVIENEW is a streaming service that offers a wide variety of award-winning
+                    TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------footer------------------------------------------ -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class=" my-5">
+
+        <footer class="bg-light text-center text-white">
+            <!-- Grid container -->
+            <div class=" p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                        role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                        role="button"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                        role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!"
+                        role="button"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="https://MOVIENEW.com/">MOVIENEW.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+    <!-- End of .container -->
+
+    <div class="alert alert-warning">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fuga. Modi, officiis voluptatibus! Aliquid,
+        ducimus? Temporibus voluptates cupiditate labore error dolor tempore fugit voluptatibus nisi impedit maiores.
+        Quibusdam numquam illum expedita quaerat quos dignissimos recusandae, deleniti, illo nesciunt praesentium minus
+        rerum, tempora quasi. Nam temporibus assumenda, quisquam veritatis, facilis ipsa, fugiat magnam facere incidunt
+        a distinctio consequatur quasi quas porro sapiente repellendus dolorum. Dicta dolor laboriosam provident.
+        Aliquid nesciunt, facilis eos alias architecto cum ipsam nulla, assumenda modi at voluptas magnam tempora saepe
+        esse a porro? Asperiores saepe aliquam alias beatae? Eligendi nisi dignissimos ab nesciunt. Excepturi dolore
+        explicabo dolorem.
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
